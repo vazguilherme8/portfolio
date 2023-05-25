@@ -26,6 +26,7 @@ body {
 .cabecalho {
     padding: 2% 0% 2% 10%;
     background-color: var(--cor-secundaria);
+    margin
 }
 
 .cabecalho__menu {
@@ -118,27 +119,11 @@ body {
     font-weight: 400;
 }
 
-.sobremim {
-    padding: 5% 10%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 82px;
-
-}
-
-.sobremim__conteudo {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    gap: 40px;
-    align-items: flex-start;
-}
 
     @media (max-width: 1200px) {
        
         .cabecalho {
-            padding: 10%;
+            padding: 5%;
         }
 
         .cabecalho__menu {
@@ -157,11 +142,12 @@ body {
         }
 
         .apresentacao__links__style {
-            padding: 1rem 1rem;
+            padding: 1rem 1re;
         }
 
         .apresentacao__imagem {
             padding: 5%;
             height: 303px;
             width: 282px;
+            filter: grayscale(100%);
         }
