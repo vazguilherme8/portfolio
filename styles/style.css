@@ -155,4 +155,13 @@ body {
         .apresentacao__conteudo {
             width: 100%;
         }
+
+        .sobremim {
+            flex-direction: column-reverse;
+            padding: 5%;
+        }
+
+        .sobremim__conteudo {
+            width: 100%;
+        }
     }
