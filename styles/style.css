@@ -97,8 +97,7 @@ body {
     padding: 16px 0;
     transition: 1s;
 }
-.apresentacao__links__style:hover/*,
-.apresentacao__links__style:focus*/ {
+.apresentacao__links__style:hover {
     background-color: var(--cor-hover);
     padding: 3%;
 }
@@ -157,21 +156,8 @@ body {
             margin-bottom: 25%;
         }
 
-        .apresentacao__imagem{
+        .apresentacao__imagem {
             padding: 5%;
             height: 303px;
-            width: 282px;   
+            width: 282px;
         }
-
-        /*.sobremim {
-            flex-direction: column-reverse;
-            padding: 5%;
-            
-        }
-
-        .sobremim__conteudo {
-            width: 100%;
-            margin-bottom: 25%;
-
-        }
-    }*/
