@@ -163,11 +163,11 @@ body {
             width: 282px;   
         }
 
-        .sobremim {
+        /*.sobremim {
             flex-direction: column-reverse;
-            padding: 5% 5% 5% 5%;
+            padding: 5%;
             
-        }
+        }*/
 
         .sobremim__conteudo {
             width: 100%;
