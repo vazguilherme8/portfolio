@@ -1,4 +1,4 @@
-# portfolio2
+# Portfolio
 Sejam bem vindos ao meu primeiro projeto desenvolvido.
 
 ![image](https://raw.githubusercontent.com/vazguilherme8/portfolio/main/pagina.png)
