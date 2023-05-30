@@ -2,7 +2,7 @@
 
 :root {
     --cor-primaria: #ebebeb;
-    --cor-secundaria: #000;
+    --cor-secundaria: #000000;
     --cor-terciaria: #85ebd9;
     --cor-hover: #14C2A2;
 
@@ -25,8 +25,9 @@ body {
 
 .cabecalho {
     padding: 2% 0% 2% 10%;
-    background-color: var(--cor-secundaria);
-    margin
+    background-color: rgba(0, 0, 0, .70);
+    
+    opacity: 100%;
 }
 
 .cabecalho__menu {
@@ -75,6 +76,8 @@ body {
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
 }
+
+
 .apresentacao__links {
     display: flex;
     flex-direction: column;
@@ -109,16 +112,58 @@ body {
     font-weight: 400;
 }
 
+.curriculo {
+    padding: 5% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.curriculo__conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 40px;
+
+}
+
+.curriculo__conteudo__titulo {
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-secundaria);
+
+}
+
+.curriculo__conteudo__texto {
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+
+}
+
+.curriculo__conteudo__subtexto {
+    font-size: 1rem;
+    font-family: var(--fonte-secundaria);
+
+}
+
 .rodape {
     padding: 24px;
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     text-align: center;
     font-family: var(--fonte-secundaria);
-    font-size: 1.5re;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
+.rodape__texto {
+    align-content: space-between;
+    justify-content: center;
+    display: flex;
+    gap: 7px;
+
+}
 
     @media (max-width: 1200px) {
        
