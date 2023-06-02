@@ -3,7 +3,7 @@
 :root {
     --cor-primaria: #ebebeb;
     --cor-secundaria: #000000;
-    --cor-terciaria: #85ebd9;
+    --cor-terciaria: #34D1BF;
     --cor-hover: #14C2A2;
 
     --fonte-primaria: 'Krona One', sans-serif;
@@ -64,7 +64,8 @@ body {
 .apresentacao__imagem__about {
     width: 40%;
     height: 40%;
-    display: flex;
+    border-radius: 0% 40%;
+    box-shadow: 20px 20px  var(--cor-terciaria);
 }
 
 .apresentacao__conteudo {
